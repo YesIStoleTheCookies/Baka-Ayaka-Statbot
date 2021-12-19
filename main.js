@@ -24,7 +24,7 @@ for (const file of commandFiles) {
 client.once('ready', () => {
 	console.log('Ready!');
   client.user.setActivity("<3", {type: "PLAYING"})
-  client.channels.cache.get("786060008735113217").send("");
+  client.channels.cache.get("786060008735113217").send("e");
 });
 
 
