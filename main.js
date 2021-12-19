@@ -46,6 +46,7 @@ client.on('message', message => {
 	}
   else if(command === 'mem'){
     client.commands.get("meme").execute(message, args, command, client, Discord, db)
+  }
 
 
 })
