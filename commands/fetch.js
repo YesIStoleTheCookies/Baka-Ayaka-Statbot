@@ -9,7 +9,7 @@ module.exports = {
     description: 'gets html of site',
     usage: `fetch`,
     async execute(message, args, command, client, Discord, db){
-      var uid = //todo
+      var uid = 1//todo
       var url = "https://webstatic-sea.mihoyo.com/app/community-game-records-sea/index.html?bbs_presentation_style=fullscreen&bbs_auth_required=true&v=101&gid=2&user_id="+uid+"&lang=en-us&bbs_theme=dark&bbs_theme_device=1#/ys"
 
     // custom fetch for Node.js
@@ -61,5 +61,5 @@ module.exports = {
       // else you want with the scraped data.
       console.log('data: ', data)
     })
-    .catch(err => console.log('err: ', err)
-}
+    .catch(err => console.log('err: ', err))
+}}
