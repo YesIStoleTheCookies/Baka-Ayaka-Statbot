@@ -9,7 +9,6 @@ const cheerio = require('cheerio');
 const imageSearch = require('image-search-google');
 
 
-
 client.commands = new Discord.Collection();
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
 
